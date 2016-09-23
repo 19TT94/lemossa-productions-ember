@@ -2,10 +2,6 @@
 .swiper-container {
   width: 100vw;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: absolute;
   z-index: -99;
 }
 
@@ -14,3 +10,30 @@
 }
 
 /* Header Section */
+.horizontal-rule {
+  float: right;
+  padding-right: 20px;
+}
+
+.quote {
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  padding: 250px 20px;
+  top: 0;
+
+  background-color: rgba(0,0,0,0.6);
+}
+
+.quote-text {
+  text-transform: uppercase;
+  width: 350px;
+  padding: 0px 50px;
+  float: right;
+  color: aquamarine;
+}
+
+.description {
+  text-align: center;
+  padding: 40px 0;
+}

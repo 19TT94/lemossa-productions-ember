@@ -44,6 +44,7 @@ $logo-margin: - ($logo-width / 2);
 }
 
 .top-bar {
+  z-index: 99;
   width: 100%;
   background: transparent;
   position: fixed;

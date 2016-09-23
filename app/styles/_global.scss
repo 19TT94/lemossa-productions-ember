@@ -68,3 +68,10 @@ li {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+
+.horizontal-rule {
+  border: 0;
+  height: 6px;
+  width: 100px;
+  background: $white;
+}
