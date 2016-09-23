@@ -23,7 +23,7 @@
   padding-right: 20px;
 }
 
-.quote {
+.title {
   width: 100%;
   text-align: right;
   position: absolute;
@@ -31,7 +31,7 @@
   top: 0;
 }
 
-.quote-text {
+.title-text {
   text-transform: uppercase;
   font-weight: 500;
   width: 350px;
@@ -40,11 +40,25 @@
   color: $aqua;
 }
 
+/* Discription Section */
 .description {
   text-align: center;
   padding: 40px 0;
 }
 
-.description-header {
+.description-quote {
   text-shadow: 5px 5px 5px $dark-shadow;
+}
+
+/* Projects-section */
+.projects {
+  background-color: $black;
+}
+
+.projects-title {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 2.5px;
+  text-align: center;
+  padding: 40px 0;
 }
