@@ -1,7 +1,5 @@
 /* Swiper Slider */
 .swiper-container {
-  // background-image: url("http://b1d8935d5cae803d4479-b020de582623dcd05cc1f91572ee8807.r79.cf5.rackcdn.com/about_image_2016.jpg");
-  // background-position-x: center;
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -10,3 +8,9 @@
   position: absolute;
   z-index: -99;
 }
+
+.swiper-pagination-bullet {
+  background: black;
+}
+
+/* Header Section */
