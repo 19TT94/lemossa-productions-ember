@@ -1,10 +1,12 @@
-/* Add Ons */
-@import 'foundation';
-
-/* Configurations */
+/* Add-Ons */
 @import "settings";
+@import 'foundation';
+@include foundation-everything;
+
+/* Custom Configuration */
 @import "config";
 @import "global";
 
 /* Pages */
+@import "navigation";
 @import "home";

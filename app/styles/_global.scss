@@ -4,7 +4,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+.ember-application {
     background-color: $off-black;
     color: $white;
     font-size: 1.5rem;
@@ -28,6 +28,10 @@ p {
 
 a, a:hover {
     text-decoration: none;
+}
+
+ul {
+  background: none;
 }
 
 li {
