@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* SCSS Document */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    background-color: $off-black;
+    color: $white;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    color: $grey;
+    font-size: 1rem;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.black {
+    color: $black;
+}
+
+.white {
+    color: $white;
+}
+
+.hide {
+  display: none;
+}
+
+/* BUTTONS */
+.btn {
+  color: $white;
+  border: 3px solid $white;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 10px 30px 8px 30px;
+  background-color: transparent;
+  font-size: 13px;
+}
+
+.btn:hover {
+  color: $off-black;
+  background-color: $white;
+  transition: ease 1s;
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
