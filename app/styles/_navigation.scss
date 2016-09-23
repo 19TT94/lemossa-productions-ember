@@ -44,7 +44,9 @@ $logo-margin: - ($logo-width / 2);
 }
 
 .top-bar {
+  width: 100%;
   background: transparent;
+  position: fixed;
   ul {
     background: transparent;
     a {
@@ -54,9 +56,9 @@ $logo-margin: - ($logo-width / 2);
 }
 
 .nav-title {
-  text-shadow: 5px 5px rgba(0,0,0,0.8);
+  text-shadow: 3px 5px 5px rgba(0,0,0,0.8);
 }
 
 .nav-link {
-  text-shadow: 5px 5px rgba(0,0,0,0.8);
+  text-shadow: 3px 5px 5px rgba(0,0,0,0.8);
 }
