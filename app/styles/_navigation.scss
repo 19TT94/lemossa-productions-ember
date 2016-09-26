@@ -83,6 +83,16 @@ $logo-margin: - ($logo-width / 2);
 .footer-title {
   font-size: 1em;
   color: $grey;
+
+  @media screen and (max-width: 414px) {
+    display: none;
+  }
+}
+
+.footer-text {
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
 }
 
 .footer-links {
@@ -94,4 +104,8 @@ $logo-margin: - ($logo-width / 2);
 
 .footer-list-left, .footer-list-right {
   display: inline-block;
+
+  @media screen and (max-width: 414px) {
+    display: block;
+  }
 }

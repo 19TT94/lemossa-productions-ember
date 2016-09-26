@@ -12,9 +12,19 @@
   display: inline-block;
 }
 
+.contact-title {
+  @media screen and (max-width: 414px) {
+    display: none;
+  }
+}
+
 .contact-text {
   padding: 15px 0 25px;
   color: $white;
+
+  @media screen and (max-width: 414px) {
+    padding-top: 100px;
+  }
 }
 
 .contact-element {
