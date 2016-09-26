@@ -53,12 +53,45 @@
 /* Projects-section */
 .projects {
   background-color: $black;
+  text-align: center;
 }
 
-.projects-title {
+.projects-header {
   text-transform: uppercase;
   font-size: 1.2em;
   letter-spacing: 2.5px;
   text-align: center;
   padding: 40px 0;
+}
+
+.projects-container {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 50px;
+}
+
+.project-image {
+  width: 200px;
+  height: 150px;
+  border: 2px solid $white;
+  padding: 5px;
+  margin: 0 0 20px;
+}
+
+.project-title {
+  font-size: 1.5em;
+}
+
+.project-text {
+  padding: 0 0 10px;
+}
+
+/* Lemossa Video */
+.lemossa-video {
+  margin: 50px 100px;
+  iframe {
+    width: 100%;
+    height: 75vh;
+  }
 }
