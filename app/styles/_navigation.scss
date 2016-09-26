@@ -67,3 +67,29 @@ $logo-margin: - ($logo-width / 2);
 .nav-link {
   text-shadow: 3px 5px 5px $dark-shadow;
 }
+
+// Footer
+.footer-container {
+  padding: 40px 10px;
+  background-color: $light-grey;
+}
+
+.links {
+  text-align: right;
+}
+
+.footer-title {
+  font-size: 1em;
+  color: $grey;
+}
+
+.footer-links {
+  font-size: 15px;
+  .footer-link-text  {
+    color: $grey;
+  }
+}
+
+.footer-list-left, .footer-list-right {
+  display: inline-block;
+}
