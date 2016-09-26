@@ -36,7 +36,6 @@ $logo-margin: - ($logo-width / 2);
   .top-bar-left {
     width:  50%;
     padding-right: $logo-padding;
-
     ul {
       float: right;
     }
@@ -48,6 +47,9 @@ $logo-margin: - ($logo-width / 2);
   width: 100%;
   background: transparent;
   position: fixed;
+  @media screen and (max-width: 768px) {
+    position: absolute;
+  }
   ul {
     background: transparent;
     a {

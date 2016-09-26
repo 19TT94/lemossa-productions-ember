@@ -75,3 +75,15 @@ li {
   width: 100px;
   background: $white;
 }
+
+.column {
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0 100px;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (max-width: 375px) {
+    padding: 0 20px;
+  }
+}
